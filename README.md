@@ -8,6 +8,12 @@ Keeps an idle Claude Code session's prompt cache warm: one short ping just befor
 
 ![keepalive above the prompt](assets/keepalive-above-prompt.png)
 
+## Video tutorial
+
+[![keepalive tutorial: turn it on, set hours and margin, switch the view, make it global](assets/keepalive-tutorial.png)](assets/keepalive-tutorial.mp4)
+
+56 seconds: turning it on and off, working hours with `setup`, `margin`, `view`, and `on --global`. Click the image to open the video.
+
 ## Install
 
 Inside Claude Code:
