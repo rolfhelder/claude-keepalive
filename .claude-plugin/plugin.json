@@ -1,0 +1,22 @@
+{
+  "name": "keepalive",
+  "version": "1.0.0",
+  "description": "Pings an idle Claude Code session shortly before its prompt cache expires, inside working hours; /keepalive toggles it per session or globally.",
+  "types": "./types/index.d.ts",
+  "license": "MIT",
+  "author": {
+    "name": "Rolf Helder"
+  },
+  "userConfig": {
+    "placement": {
+      "type": "string",
+      "title": "Where to show it",
+      "description": "above-prompt: a fixed row above the input. status-line: an entry in the status line (entries can swap places).",
+      "options": [
+        "above-prompt",
+        "status-line"
+      ],
+      "default": "above-prompt"
+    }
+  }
+}

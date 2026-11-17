@@ -1,0 +1,15 @@
+{
+  "name": "keepalive",
+  "owner": {
+    "name": "rolfhelder"
+  },
+  "plugins": [
+    {
+      "name": "keepalive",
+      "source": "./",
+      "version": "1.0.0",
+      "description": "Keeps an idle session's prompt cache warm inside working hours"
+    }
+  ],
+  "description": "Keeps an idle Claude Code session's prompt cache warm with one ping before it expires."
+}
