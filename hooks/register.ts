@@ -166,6 +166,7 @@ const HELP = 'Usage: /keepalive [on|off] [--global] | setup <start> <end> [days]
 async function toggleView($: EngineInterface): Promise<string> {
   const value = placement === 'status-line' ? 'above-prompt' : 'status-line'
   const { deny } = await $.config.set({ key: 'keepalive.placement', value })
+  if (!deny) { placement = value; $.ui.status(undefined) } // the outgoing instance still refreshes once after this command; only it can clear its own entry
   return deny ? `Could not change the view: ${deny}` : `Now shown ${value === 'status-line' ? 'in the status line' : 'above the prompt'}.`
 }
 

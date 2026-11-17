@@ -7,7 +7,7 @@
     {
       "name": "keepalive",
       "source": "./",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": "Keeps an idle session's prompt cache warm inside working hours"
     }
   ],

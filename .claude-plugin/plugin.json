@@ -1,6 +1,6 @@
 {
   "name": "keepalive",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Pings an idle Claude Code session shortly before its prompt cache expires, inside working hours; /keepalive toggles it per session or globally.",
   "types": "./types/index.d.ts",
   "license": "MIT",
