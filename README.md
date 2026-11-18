@@ -10,9 +10,9 @@ Keeps an idle Claude Code session's prompt cache warm: one short ping just befor
 
 ## Video tutorial
 
-[![keepalive tutorial: turn it on, set hours and margin, switch the view, make it global](assets/keepalive-tutorial.png)](assets/keepalive-tutorial.mp4)
+<video src="assets/keepalive-tutorial.mp4" poster="assets/keepalive-tutorial.png" controls width="100%"></video>
 
-56 seconds: turning it on and off, working hours with `setup`, `margin`, `view`, and `on --global`. Click the image to open the video.
+56 seconds: turning it on and off, working hours with `setup`, `margin`, `view`, and `on --global`. [Download the video](assets/keepalive-tutorial.mp4) if it doesn't play inline.
 
 ## Install
 
