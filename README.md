@@ -6,7 +6,7 @@
 
 Keeps an idle Claude Code session's prompt cache warm: one short ping just before the cache expires, so your next message doesn't pay to rebuild it.
 
-<img src="assets/keepalive-above-prompt.png" alt="keepalive above the prompt" width="720">
+[![keepalive above the prompt](assets/keepalive-above-prompt.png)](#commands)
 
 ## Video tutorial
 
@@ -70,7 +70,7 @@ Anything else after `/keepalive` is handed to Claude with the command's help, so
 
 Working hours, margin and the global default are stored by the plugin and set with the commands above. Defaults: off, Mon–Fri 9 am–5 pm, 2-minute margin, no ping cap beyond one per idle stretch.
 
-<img src="assets/keepalive-status-line.png" alt="keepalive in the status line" width="720">
+[![keepalive in the status line](assets/keepalive-status-line.png)](#commands)
 
 ## Privacy
 
