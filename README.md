@@ -10,7 +10,7 @@ Keeps an idle Claude Code session's prompt cache warm: one short ping just befor
 
 ## Video tutorial
 
-<video src="assets/keepalive-tutorial.mp4" poster="assets/keepalive-tutorial.png" controls width="100%"></video>
+https://github.com/user-attachments/assets/00b0f64e-8fa6-465b-8d8c-b452fcd22e0e
 
 56 seconds: turning it on and off, working hours with `setup`, `margin`, `view`, and `on --global`. [Download the video](assets/keepalive-tutorial.mp4) if it doesn't play inline.
 
